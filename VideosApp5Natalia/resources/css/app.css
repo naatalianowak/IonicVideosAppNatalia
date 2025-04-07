@@ -1,0 +1,46 @@
+:root {
+    --rosa-pallid: #FFE6F0;
+    --rosa-pastel: #FF99CC;
+    --rosa-fosc: #FF66A3;
+    --text-color: #333333;
+    --white: #FFFFFF;
+}
+
+body {
+    background-color: var(--rosa-pallid);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .display-4 {
+    color: var(--rosa-fosc);
+}
+
+.lead {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--rosa-pastel);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--rosa-fosc);
+}
+
+.btn {
+    background-color: var(--rosa-pastel);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: var(--rosa-fosc);
+}

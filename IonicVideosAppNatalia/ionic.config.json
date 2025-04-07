@@ -1,0 +1,7 @@
+{
+  "name": "IonicVideosAppNatalia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
